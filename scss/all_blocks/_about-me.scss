@@ -1,0 +1,53 @@
+.about{
+    margin-top: 150px;
+}
+
+.about .container {
+    display: flex;
+    align-items: center;
+}
+.abut__info{
+    max-width: 350px;
+    width: 100%;
+    margin: 0 auto;
+}
+.about__heading{
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    margin: 0;
+    margin-bottom: 28px;
+}
+
+.about__desc{
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: $grayish-blue;
+    margin: 0;
+    margin-bottom: 24px;
+}
+.about__link{
+    border: 2px solid $dark-blue;
+    padding: 17px 32px;
+    color: $grayish-blue;
+}
+@media only screen and (max-width:425px){
+    .about .container{
+        display: block;
+    }
+}
+@media only screen and (max-width:375px){
+    .about{
+        margin-top: 200px;
+    }
+}
+@media only screen and (max-width:320px){
+    .about{
+        margin-top: 250px;
+    }
+}

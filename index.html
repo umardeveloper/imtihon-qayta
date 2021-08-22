@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@700&family=Public+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <title>Imtihon</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a  class="header__link" href="./index.html">
+
+
+               <img class="header__logo__img"
+                src="./images/header-logo.svg" 
+                alt="header logo"
+                width="60"
+                height="32"
+                >
+
+
+            </a>
+
+            <!-- ###########  nav  ########### -->
+            <button class="header-humburger ">
+                <img src="./images/mobile-button.svg" alt="humburger button">
+            </button>
+
+            <nav class="nav">
+                <div class="header__right">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link nav__link--active" href="./index.html" >
+                                HOME
+                            </a>
+                        </li>
+        
+        
+                        <li class="nav__item">
+                            <a class="nav__link" href="./portfolio.html" >
+                                PORTFOLIO
+                            </a>
+                        </li>
+        
+        
+                        <li class="nav__item">
+                            <a class="nav__link" href="./contact.html" >
+                                CONTACT ME
+                            </a>
+                        </li>
+        
+        
+                        </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <!-- @@@@@@@@@@@@@@@@@       HERO     @@@@@@@@@@@@@@@@@ -->
+        <section class="hero">
+            <div class="container">
+                <div class="box-info">
+                    <h1 class="box__heading">
+                        Hey, I’m Alex Spencer and I love building beautiful websites
+                    </h1>
+                    <a class="hero__link section-link" href="#">
+                        <span class="hero__scrol">
+                           <img src="./images/abut-me-button.svg" alt="scrol" width="16" height="12">
+                        </span>
+                        ABOUT ME
+                     </a>
+                </div>
+            </div>
+        </section>
+        <!-- @@@@@@@@@@@@@@@@@      ABOUT ME      @@@@@@@@@@@@@@@@@ -->
+        <section class="about">
+            
+            <div class="container">
+                <picture class="about__picture">
+                    <source 
+                    type="image/webp" 
+                    media="(max-width: 425px)"
+                    srcset="./images/web-p/human-mobile.webp 1x,
+                           ./images/web-p/human-mobile-2x.webp 2x"
+                           width="311"
+                           height="346"
+                    >
+                    <source 
+                    type="image/webp" 
+                    media="(max-width: 768px)"
+                    srcset="./images/web-p/human-tablet.webp 1x,
+                            ./images/web-p/human-tablet@2x.webp 2x"
+                     width="281"
+                    >
+
+                    <img src="./images/web-p/human-desktop.webp"
+                     alt="human about"
+                     srcset="./images/web-p/human-desktop.webp 1x,
+                              ./images/web-p/human-desktop@2x.webp 2x "
+                     width="540px"
+                     height="600"
+                     >
+                </picture>
+
+                <div class="abut__info">
+                    <h2 class="about__heading">
+                        About Me
+                    </h2>
+                    <p class="about__desc">
+                        I’m a junior front-end developer looking for a new role in an exciting company. I focus on writing accessible HTML, using modern CSS practices and writing clean JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to whatever tools are required. I’m based in London, UK, but I’m happy working remotely and have experience in remote teams. When I’m not coding, you’ll find me outdoors. I love being out in nature whether that’s going for a walk, run or cycling. I’d love you to check out my work.
+                    </p>
+                    <a class="about__link" href="./portfolio.html">
+                        GO TO PORTFOLIO
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+        <!--@@@@@@@@@@@@@@@@@@@@@    CONTACT   @@@@@@@@@@@@@@@@@@@@@ -->
+        <section class="contact">
+            <div class="container">
+                <h2 class="contact__heading">
+                    Interested in doing a project together?
+                </h2>
+                <a class="contact__link" href="./contact.html">
+                    CONTACT ME
+                </a>
+            </div>
+        </section>
+    </main>
+        <footer class="footer">
+            <div class="container">
+                <a class="header__logo" href="./index.html">
+                    <img class="header__img" src="./images/footer-logo.svg" alt="footer logo" width="60" height="32">
+                 </a>
+
+                 <nav class="nav nav-right">
+                    <ul class="nav__list foot__list">
+                        <li class="nav__item ">
+                            <a class="nav__link nav__link--active foot__link" href="./index.html" >
+                                HOME
+                            </a>
+                        </li>
+        
+        
+                        <li class="nav__item">
+                            <a class="nav__link foot__link" href="./portfolio.html" >
+                                PORTFOLIO
+                            </a>
+                        </li>
+        
+        
+                        <li class="nav__item">
+                            <a class="nav__link foot__link" href="./contact.html" >
+                                CONTACT ME
+                            </a>
+                        </li>
+        
+        
+                        </ul>
+                 </nav>
+
+                 <div class="footer__link">
+                     <a class="foot__icon" href="#">
+                         <img class="footer__icon__img" src="./images/github.svg" alt="github link" width="25" height="24">
+                     </a>
+
+                     <a class="foot__icon" href="#">
+                        <img class="footer__icon__img" src="./images/twiter.svg" alt="twitter link" width="25" height="24">
+                    </a>
+
+                    <a class="foot__icon" href="#">
+                        <img class="footer__icon__img" src="./images/in.svg" alt="linikind link" width="25" height="24">
+                    </a>
+                 </div>
+            </div>
+        </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>
